@@ -6,8 +6,7 @@ if int(n) < 10:
 x = n
 count = 0
 
-if int(x) < 10:
-        x = '0'+ x
+
 while True:
     x_list = [int(i) for i in x]
     x = str(x_list[-1]) + str(sum(x_list))[-1]
