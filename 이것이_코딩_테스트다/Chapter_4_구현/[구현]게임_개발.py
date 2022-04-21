@@ -1,4 +1,4 @@
-# 나의 답 첫번째 (첫번째 시도 실패)
+# 나의 답 첫번째 (첫번째 시도 실패)(두번째 시도 1시간)
 n,m = map(int, input().split())
 now_n, now_m, d = map(int, input().split())
 map_data = [ list(map(int,input().split())) for _ in range(m) ]
